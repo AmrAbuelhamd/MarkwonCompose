@@ -18,7 +18,7 @@ android {
 
     defaultConfig {
         applicationId 'io.noties.markwon.app'
-        minSdkVersion 23
+        minSdkVersion 26
         targetSdkVersion config['target-sdk']
         versionCode 1
         versionName version

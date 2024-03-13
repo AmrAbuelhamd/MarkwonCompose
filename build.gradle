@@ -1,5 +1,5 @@
 buildscript {
-    ext.kotlin_version = '1.6.21'
+    ext.kotlin_version = '1.7.10'
     repositories {
         google()
         jcenter()
@@ -49,10 +49,10 @@ if (hasProperty('local')) {
 ext {
 
     config = [
-            'build-tools'    : '29.0.3',
-            'compile-sdk'    : 29,
-            'target-sdk'     : 29,
-            'min-sdk'        : 16,
+            'build-tools'    : '34.0.0',
+            'compile-sdk'    : 34,
+            'target-sdk'     : 34,
+            'min-sdk'        : 26,
             'push-aar-gradle': 'https://raw.githubusercontent.com/noties/gradle-mvn-push/master/gradle-mvn-push-aar.gradle'
     ]
 
